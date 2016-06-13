@@ -1,0 +1,15 @@
+#IDE and Mac specific
+*~
+.DS_Store
+.idea/
+*.iml
+
+### Vagrant template
+.vagrant/
+
+### Composer template
+composer.phar
+/vendor/
+/bin/
+
+tests/_output/*

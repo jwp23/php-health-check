@@ -1,0 +1,23 @@
+{
+    "name": "beachbody/wp-health-check",
+    "description": "A library for health check for WordPress installations behind a load balancer",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "prefer-stable": true,
+    "require": {
+        "symfony/http-foundation": "^3.1.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.1",
+        "squizlabs/php_codesniffer": "^2.5",
+        "codeception/mockery-module": "^0.2.0",
+        "phpmd/phpmd": "^2.4"
+    },
+    "autoload": {
+        "psr-4": { "BB\\WPHealthCheck\\": "" },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    }
+}
