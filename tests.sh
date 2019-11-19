@@ -21,7 +21,7 @@ do
     ;;
     *)
         echo "Invalid parameter ${p}"
-        $(usage)
+        usage
     esac
 done
 
